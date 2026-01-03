@@ -11,3 +11,8 @@ Built With
 
 
 WEB PORT VERSION CAN BE FOUND HERE: https://github.com/david-marin-0xff/soroban-trainer-winforms/tree/web-version/web 
+
+
+Live web version:
+
+https://david-marin-0xff.github.io/soroban/ 
