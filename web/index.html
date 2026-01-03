@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Soroban</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <!-- ⭐ NEW TITLE -->
+    <h1 class="title">Web Soroban</h1>
+    <h2 class="subtitle">by david-marin-0xff</h2>
+
+    <canvas id="canvas" width="900" height="320"></canvas>
+
+    <fieldset id="controls">
+      <legend>Settings</legend>
+
+      <label>
+        Number of Rods:
+        <select id="numberOfRods">
+          <option value="11">11</option>
+          <option value="13">13</option>
+          <option value="15" selected>15</option>
+          <option value="17">17</option>
+          <option value="19">19</option>
+          <option value="21">21</option>
+        </select>
+      </label>
+
+      <label>
+  Theme:
+  <select id="themeSelect">
+    <option value="classic" selected>Classic</option>
+    <option value="dark">Dark</option>
+    <option value="light">Light</option>
+    <option value="wood">Wood</option>
+  </select>
+</label>
+
+
+      <label class="checkbox">
+        <input type="checkbox" id="decimalToggle">
+        Decimal mode
+      </label>
+
+      <button id="reset">Reset Abacus</button>
+    </fieldset>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

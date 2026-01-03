@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: #6dc3dd;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#app {
+  text-align: center;
+  padding-top: 20px;
+}
+
+canvas {
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* ===== Controls ===== */
+fieldset {
+  margin: 20px auto;
+  width: fit-content;
+  border: 2px solid #6b3f00;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+legend {
+  background: #8b5a00;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+fieldset label {
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.checkbox {
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+button {
+  background: #92d417;
+  border: 1px solid #6b3f00;
+  border-radius: 6px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #50e030;
+}
+.title {
+  margin: 0;
+  font-size: 32px;
+  color: #3b1f00;
+}
+
+.subtitle {
+  margin: 4px 0 12px;
+  font-size: 16px;
+  color: #5a2d00;
+  font-weight: normal;
+}
+/* ================== THEMES ================== */
+:root {
+  --bg: #6dc3dd;
+  --panel: #ffffffcc;
+  --text: #3b1f00;
+  --legend: #8b5a00;
+  --button: #92d417;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+fieldset {
+  background: var(--panel);
+}
+
+legend {
+  background: var(--legend);
+}
+
+button {
+  background: var(--button);
+}
+
+/* ---------- DARK MODE ---------- */
+body.theme-dark {
+  --bg: #dfd4d4;
+  --panel: #2a2a2a;
+  --text: #eaeaea;
+  --legend: #444;
+  --button: #555;
+}
+
+/* ---------- LIGHT MODE ---------- */
+body.theme-light {
+  --bg: #f2f2f2;
+  --panel: #ffffff;
+  --text: #222;
+  --legend: #ddd;
+  --button: #cce55a;
+}
+
+/* ---------- WOOD MODE ---------- */
+body.theme-wood {
+  --bg: #e9b788;
+  --panel: #c9a36a;
+  --text: #2b1a0d;
+  --legend: #8b5a00;
+  --button: #a36b2c;
+}
