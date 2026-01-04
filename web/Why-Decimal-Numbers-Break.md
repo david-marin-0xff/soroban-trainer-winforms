@@ -9,7 +9,10 @@ though the beads clearly represent an exact decimal value.
 
 Example:
 Expected:  10000000000.00101
-Displayed: 10000000000.0010108948
+Displayed: 10000000
+
+<img width="1721" height="705" alt="Screenshot 2026-01-03 234530" src="https://github.com/user-attachments/assets/93d702ab-4736-4f37-83fa-86bd178e4b2c" />
+000.0010108948
 
 This document explains why this happens and what I learned from it.
 
@@ -50,7 +53,10 @@ So when a program stores a decimal number, it often stores
 the closest binary approximation instead of the exact value.
 
 
-3. What Goes Wrong in the First Example
+3. What Goes Wrong in this Example:
+
+<img width="1767" height="732" alt="image" src="https://github.com/user-attachments/assets/8b027279-d1ff-44de-bd17-de6ee6917ee1" />
+
 ---------------------------------------
 Example displayed by the Soroban:
 
