@@ -9,10 +9,10 @@ though the beads clearly represent an exact decimal value.
 
 Example:
 Expected:  10000000000.00101
-Displayed: 10000000
+Displayed: 10000000000.0010108948
 
 <img width="1721" height="705" alt="Screenshot 2026-01-03 234530" src="https://github.com/user-attachments/assets/93d702ab-4736-4f37-83fa-86bd178e4b2c" />
-000.0010108948
+
 
 This document explains why this happens and what I learned from it.
 
@@ -70,9 +70,9 @@ When the value is printed or recalculated, the hidden approximation
 becomes visible, causing extra digits to appear.
 
 
-4. Why the Second Example Looks Even Worse
+4. Why the 1st Example Looks Even Worse
 ------------------------------------------
-In the second screenshot, the fractional part is more complex:
+In the screenshot, the fractional part is more complex:
 
 Expected:
 10000000000.00101
